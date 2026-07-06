@@ -12,10 +12,20 @@
   --color-textPrimaryColor: #696984;
   --color-textSecondaryColor: #2f327d;
   --color-accetOrange: #f48c06;
+  --color-otherTextColor: #00cbb8;
 
   /* fonts */
   --font-poppins: "var(--font-poppins)";
   --font-nunito_sans: "var(--font-nunito_sans)";
+}
+
+#linearColor {
+  color: linear-gradient(
+    90deg,
+    rgba(19, 108, 181, 1) 0%,
+    rgba(48, 150, 185, 1) 53%,
+    rgba(73, 187, 189, 1) 100%
+  );
 }
 
 /* @theme inline {
