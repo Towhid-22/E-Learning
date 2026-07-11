@@ -13,21 +13,26 @@
   --color-textSecondaryColor: #2f327d;
   --color-accetOrange: #f48c06;
   --color-otherTextColor: #00cbb8;
+  --color-TextColor: #252641;
 
   /* fonts */
   --font-poppins: "var(--font-poppins)";
   --font-nunito_sans: "var(--font-nunito_sans)";
+  --font-roboto: "var(--font-roboto)";
 }
 
-#linearColor {
-  color: linear-gradient(
-    90deg,
-    rgba(19, 108, 181, 1) 0%,
-    rgba(48, 150, 185, 1) 53%,
-    rgba(73, 187, 189, 1) 100%
-  );
+.bgImageOne {
+  background-image: url("/images/totc1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
+.bgImageTwo {
+  background-image: url("/images/totc2.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: var(--font-sans);
