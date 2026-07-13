@@ -17,7 +17,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-bgColor py-4">
+    <div className="bg-bgColor py-4 sticky top-0 z-50">
       <Container>
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -73,7 +73,7 @@ const Navbar = () => {
             {navItems.map((item) => (
               <li key={item.id}>
                 <Link
-                  href="#"
+                  href={item.href}
                   onClick={() => setOpen(false)}
                   className="block text-gray-700 font-medium hover:text-bgColor"
                 >
