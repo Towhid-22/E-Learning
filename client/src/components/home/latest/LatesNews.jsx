@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../common/Container";
+import Container from "../../common/Container";
 import Link from "next/link";
 
 const newsList = [
@@ -40,7 +40,7 @@ const LatesNews = () => {
       <p className="font-nunito_sans text-textPrimaryColor leading-[180%] text-lg lg:text-2xl mt-5 text-center">
         See the developments that have occurred to TOTC in the world
       </p>
-      <div className="flex flex-col lg:flex-row gap-12 lg:gap-30 mt-12 lg:mt-25">
+      <div className="flex flex-col lg:flex-row gap-12 lg:gap-30 mt-12 lg:mt-25 mb-25">
         {/* Left */}
         <div>
           <img src="/news/news.png" alt="news" />

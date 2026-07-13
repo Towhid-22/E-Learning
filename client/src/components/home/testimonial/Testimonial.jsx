@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../common/Container";
+import Container from "../../common/Container";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
 import { GoStarFill } from "react-icons/go";
 import { MdKeyboardArrowRight } from "react-icons/md";

@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../common/Container";
+import Container from "@/components/common/Container";
 import { FiArrowRight } from "react-icons/fi";
 
 const courseCategories = [

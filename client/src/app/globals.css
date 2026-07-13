@@ -33,6 +33,15 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.btn {
+  background-color: #49bbbd;
+  padding: 17px 25px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
 /* @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: var(--font-sans);

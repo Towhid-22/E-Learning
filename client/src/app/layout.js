@@ -1,7 +1,7 @@
 import { Poppins, Nunito_Sans, Roboto } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar/Navbar";
-import Footer from "@/components/footer/Footer";
+import Navbar from "@/components/common/Navbar";
+import Footer from "@/components/common/Footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -29,10 +29,10 @@ export default function RootLayout({ children }) {
       className={`${poppins.variable} ${roboto.variable} ${nunito_sans.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-poppins">
-        <Navbar/>
+        <Navbar />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }

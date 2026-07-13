@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Container from "../common/Container";
+import Container from "./Container";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
@@ -9,11 +9,11 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const navItems = [
-    { id: 1, name: "Home" },
-    { id: 2, name: "Courses" },
-    { id: 3, name: "Careers" },
-    { id: 4, name: "Blog" },
-    { id: 5, name: "About Us" },
+    { id: 1, name: "Home", href: "/" },
+    { id: 2, name: "Courses", href: "#" },
+    { id: 3, name: "Careers", href: "#" },
+    { id: 4, name: "Blog", href: "/blog" },
+    { id: 5, name: "About Us", href: "#" },
   ];
 
   return (
@@ -30,7 +30,7 @@ const Navbar = () => {
               {navItems.map((item) => (
                 <li key={item.id}>
                   <Link
-                    href="#"
+                    href={item.href}
                     className="text-white hover:text-gray-300 transition"
                   >
                     {item.name}
@@ -40,13 +40,13 @@ const Navbar = () => {
             </ul>
 
             <div className="flex items-center gap-4">
-              <Link href="#">
+              <Link href="/login">
                 <button className="rounded-full bg-white px-6 py-2 font-semibold text-textPrimaryColor cursor-pointer">
                   Login
                 </button>
               </Link>
 
-              <Link href="#">
+              <Link href="/signup">
                 <button className="rounded-full bg-white/20 px-6 py-2 font-semibold text-white border border-white cursor-pointer">
                   Sign Up
                 </button>

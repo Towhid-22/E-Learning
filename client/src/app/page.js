@@ -1,11 +1,11 @@
-import AllInOne from "@/components/all-in-one/AllInOne";
-import Banner from "@/components/banner/Banner";
-import Course from "@/components/course/Course";
-import Feature from "@/components/features/Feature";
-import LatesNews from "@/components/latest/LatesNews";
-import Success from "@/components/success/Success";
-import Testimonial from "@/components/testimonial/Testimonial";
-import Totc from "@/components/totc/Totc";
+import AllInOne from "@/components/home/all-in-one/AllInOne";
+import Banner from "@/components/home/banner/Banner";
+import Course from "@/components/home/course/Course";
+import Feature from "@/components/home/features/Feature";
+import LatesNews from "@/components/home/latest/LatesNews";
+import Success from "@/components/home/success/Success";
+import Testimonial from "@/components/home/testimonial/Testimonial";
+import Totc from "@/components/home/totc/Totc";
 import React from "react";
 
 const page = () => {

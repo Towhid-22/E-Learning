@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../common/Container";
+import Container from "../../common/Container";
 import Link from "next/link";
 import { IoPlaySharp } from "react-icons/io5";
 
