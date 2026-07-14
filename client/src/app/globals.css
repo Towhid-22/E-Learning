@@ -41,6 +41,12 @@
   color: white;
   cursor: pointer;
 }
+.education {
+  background-image: url("/course/education.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 /* @theme inline {
   --font-heading: var(--font-sans);
